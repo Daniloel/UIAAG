@@ -1,0 +1,198 @@
+[20-Mar-2017 23:16:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/control_citas/ver_citas.php on line 32
+[20-Mar-2017 23:16:26 UTC] PHP Stack trace:
+[20-Mar-2017 23:16:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/control_citas/ver_citas.php:0
+[20-Mar-2017 23:16:26 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/control_citas/ver_citas.php:32
+[21-Mar-2017 00:18:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/control_citas/ver_citas.php on line 34
+[21-Mar-2017 00:18:45 UTC] PHP Stack trace:
+[21-Mar-2017 00:18:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/control_citas/ver_citas.php:0
+[21-Mar-2017 00:18:45 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/control_citas/ver_citas.php:34
+[21-Mar-2017 00:19:57 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/control_citas/ver_citas.php on line 34
+[21-Mar-2017 00:19:57 UTC] PHP Stack trace:
+[21-Mar-2017 00:19:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/control_citas/ver_citas.php:0
+[21-Mar-2017 00:19:57 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/control_citas/ver_citas.php:34
+[21-Mar-2017 03:49:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/administrator/components/com_booking/tables/subject.php on line 700
+[21-Mar-2017 03:49:58 UTC] PHP Stack trace:
+[21-Mar-2017 03:49:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/administrator/index.php:0
+[21-Mar-2017 03:49:58 UTC] PHP   2. JApplicationCms->execute() /home/ubuntu/workspace/administrator/index.php:51
+[21-Mar-2017 03:49:58 UTC] PHP   3. JApplicationAdministrator->doExecute() /home/ubuntu/workspace/libraries/cms/application/cms.php:261
+[21-Mar-2017 03:49:58 UTC] PHP   4. JApplicationAdministrator->dispatch() /home/ubuntu/workspace/libraries/cms/application/administrator.php:152
+[21-Mar-2017 03:49:58 UTC] PHP   5. JComponentHelper::renderComponent() /home/ubuntu/workspace/libraries/cms/application/administrator.php:98
+[21-Mar-2017 03:49:58 UTC] PHP   6. JComponentHelper::executeComponent() /home/ubuntu/workspace/libraries/cms/component/helper.php:380
+[21-Mar-2017 03:49:58 UTC] PHP   7. require_once() /home/ubuntu/workspace/libraries/cms/component/helper.php:405
+[21-Mar-2017 03:49:58 UTC] PHP   8. AController->execute() /home/ubuntu/workspace/administrator/components/com_booking/booking.php:98
+[21-Mar-2017 03:49:58 UTC] PHP   9. JControllerLegacy->execute() /home/ubuntu/workspace/administrator/components/com_booking/helpers/controller.php:45
+[21-Mar-2017 03:49:58 UTC] PHP  10. BookingControllerSubject->apply() /home/ubuntu/workspace/libraries/legacy/controller/legacy.php:702
+[21-Mar-2017 03:49:58 UTC] PHP  11. BookingControllerSubject->save() /home/ubuntu/workspace/administrator/components/com_booking/controllers/subject.php:173
+[21-Mar-2017 03:49:58 UTC] PHP  12. BookingModelSubject->store() /home/ubuntu/workspace/administrator/components/com_booking/controllers/subject.php:195
+[21-Mar-2017 03:49:58 UTC] PHP  13. TableSubject->bind() /home/ubuntu/workspace/administrator/components/com_booking/models/subject.php:329
+[21-Mar-2017 03:49:58 UTC] PHP  14. TableSubject->prepare() /home/ubuntu/workspace/administrator/components/com_booking/tables/subject.php:618
+[21-Mar-2017 03:49:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/administrator/components/com_booking/models/prices.php on line 150
+[21-Mar-2017 03:49:58 UTC] PHP Stack trace:
+[21-Mar-2017 03:49:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/administrator/index.php:0
+[21-Mar-2017 03:49:58 UTC] PHP   2. JApplicationCms->execute() /home/ubuntu/workspace/administrator/index.php:51
+[21-Mar-2017 03:49:58 UTC] PHP   3. JApplicationAdministrator->doExecute() /home/ubuntu/workspace/libraries/cms/application/cms.php:261
+[21-Mar-2017 03:49:58 UTC] PHP   4. JApplicationAdministrator->dispatch() /home/ubuntu/workspace/libraries/cms/application/administrator.php:152
+[21-Mar-2017 03:49:58 UTC] PHP   5. JComponentHelper::renderComponent() /home/ubuntu/workspace/libraries/cms/application/administrator.php:98
+[21-Mar-2017 03:49:58 UTC] PHP   6. JComponentHelper::executeComponent() /home/ubuntu/workspace/libraries/cms/component/helper.php:380
+[21-Mar-2017 03:49:58 UTC] PHP   7. require_once() /home/ubuntu/workspace/libraries/cms/component/helper.php:405
+[21-Mar-2017 03:49:58 UTC] PHP   8. AController->execute() /home/ubuntu/workspace/administrator/components/com_booking/booking.php:98
+[21-Mar-2017 03:49:58 UTC] PHP   9. JControllerLegacy->execute() /home/ubuntu/workspace/administrator/components/com_booking/helpers/controller.php:45
+[21-Mar-2017 03:49:58 UTC] PHP  10. BookingControllerSubject->apply() /home/ubuntu/workspace/libraries/legacy/controller/legacy.php:702
+[21-Mar-2017 03:49:58 UTC] PHP  11. BookingControllerSubject->save() /home/ubuntu/workspace/administrator/components/com_booking/controllers/subject.php:173
+[21-Mar-2017 03:49:58 UTC] PHP  12. BookingModelSubject->store() /home/ubuntu/workspace/administrator/components/com_booking/controllers/subject.php:195
+[21-Mar-2017 03:49:58 UTC] PHP  13. BookingModelPrices->store() /home/ubuntu/workspace/administrator/components/com_booking/models/subject.php:393
+[21-Mar-2017 03:50:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/administrator/components/com_booking/tables/subject.php on line 700
+[21-Mar-2017 03:50:04 UTC] PHP Stack trace:
+[21-Mar-2017 03:50:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/administrator/index.php:0
+[21-Mar-2017 03:50:04 UTC] PHP   2. JApplicationCms->execute() /home/ubuntu/workspace/administrator/index.php:51
+[21-Mar-2017 03:50:04 UTC] PHP   3. JApplicationAdministrator->doExecute() /home/ubuntu/workspace/libraries/cms/application/cms.php:261
+[21-Mar-2017 03:50:04 UTC] PHP   4. JApplicationAdministrator->dispatch() /home/ubuntu/workspace/libraries/cms/application/administrator.php:152
+[21-Mar-2017 03:50:04 UTC] PHP   5. JComponentHelper::renderComponent() /home/ubuntu/workspace/libraries/cms/application/administrator.php:98
+[21-Mar-2017 03:50:04 UTC] PHP   6. JComponentHelper::executeComponent() /home/ubuntu/workspace/libraries/cms/component/helper.php:380
+[21-Mar-2017 03:50:04 UTC] PHP   7. require_once() /home/ubuntu/workspace/libraries/cms/component/helper.php:405
+[21-Mar-2017 03:50:04 UTC] PHP   8. AController->execute() /home/ubuntu/workspace/administrator/components/com_booking/booking.php:98
+[21-Mar-2017 03:50:04 UTC] PHP   9. JControllerLegacy->execute() /home/ubuntu/workspace/administrator/components/com_booking/helpers/controller.php:45
+[21-Mar-2017 03:50:04 UTC] PHP  10. BookingControllerSubject->save() /home/ubuntu/workspace/libraries/legacy/controller/legacy.php:702
+[21-Mar-2017 03:50:04 UTC] PHP  11. BookingModelSubject->store() /home/ubuntu/workspace/administrator/components/com_booking/controllers/subject.php:195
+[21-Mar-2017 03:50:04 UTC] PHP  12. TableSubject->bind() /home/ubuntu/workspace/administrator/components/com_booking/models/subject.php:329
+[21-Mar-2017 03:50:04 UTC] PHP  13. TableSubject->prepare() /home/ubuntu/workspace/administrator/components/com_booking/tables/subject.php:618
+[21-Mar-2017 04:04:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/administrator/components/com_booking/tables/subject.php on line 700
+[21-Mar-2017 04:04:11 UTC] PHP Stack trace:
+[21-Mar-2017 04:04:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/administrator/index.php:0
+[21-Mar-2017 04:04:11 UTC] PHP   2. JApplicationCms->execute() /home/ubuntu/workspace/administrator/index.php:51
+[21-Mar-2017 04:04:11 UTC] PHP   3. JApplicationAdministrator->doExecute() /home/ubuntu/workspace/libraries/cms/application/cms.php:261
+[21-Mar-2017 04:04:11 UTC] PHP   4. JApplicationAdministrator->dispatch() /home/ubuntu/workspace/libraries/cms/application/administrator.php:152
+[21-Mar-2017 04:04:11 UTC] PHP   5. JComponentHelper::renderComponent() /home/ubuntu/workspace/libraries/cms/application/administrator.php:98
+[21-Mar-2017 04:04:11 UTC] PHP   6. JComponentHelper::executeComponent() /home/ubuntu/workspace/libraries/cms/component/helper.php:380
+[21-Mar-2017 04:04:11 UTC] PHP   7. require_once() /home/ubuntu/workspace/libraries/cms/component/helper.php:405
+[21-Mar-2017 04:04:11 UTC] PHP   8. AController->execute() /home/ubuntu/workspace/administrator/components/com_booking/booking.php:98
+[21-Mar-2017 04:04:11 UTC] PHP   9. JControllerLegacy->execute() /home/ubuntu/workspace/administrator/components/com_booking/helpers/controller.php:45
+[21-Mar-2017 04:04:11 UTC] PHP  10. BookingControllerSubject->save() /home/ubuntu/workspace/libraries/legacy/controller/legacy.php:702
+[21-Mar-2017 04:04:11 UTC] PHP  11. BookingModelSubject->store() /home/ubuntu/workspace/administrator/components/com_booking/controllers/subject.php:195
+[21-Mar-2017 04:04:11 UTC] PHP  12. TableSubject->bind() /home/ubuntu/workspace/administrator/components/com_booking/models/subject.php:329
+[21-Mar-2017 04:04:11 UTC] PHP  13. TableSubject->prepare() /home/ubuntu/workspace/administrator/components/com_booking/tables/subject.php:618
+[21-Mar-2017 04:04:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/administrator/components/com_booking/models/prices.php on line 150
+[21-Mar-2017 04:04:11 UTC] PHP Stack trace:
+[21-Mar-2017 04:04:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/administrator/index.php:0
+[21-Mar-2017 04:04:11 UTC] PHP   2. JApplicationCms->execute() /home/ubuntu/workspace/administrator/index.php:51
+[21-Mar-2017 04:04:11 UTC] PHP   3. JApplicationAdministrator->doExecute() /home/ubuntu/workspace/libraries/cms/application/cms.php:261
+[21-Mar-2017 04:04:11 UTC] PHP   4. JApplicationAdministrator->dispatch() /home/ubuntu/workspace/libraries/cms/application/administrator.php:152
+[21-Mar-2017 04:04:11 UTC] PHP   5. JComponentHelper::renderComponent() /home/ubuntu/workspace/libraries/cms/application/administrator.php:98
+[21-Mar-2017 04:04:11 UTC] PHP   6. JComponentHelper::executeComponent() /home/ubuntu/workspace/libraries/cms/component/helper.php:380
+[21-Mar-2017 04:04:11 UTC] PHP   7. require_once() /home/ubuntu/workspace/libraries/cms/component/helper.php:405
+[21-Mar-2017 04:04:11 UTC] PHP   8. AController->execute() /home/ubuntu/workspace/administrator/components/com_booking/booking.php:98
+[21-Mar-2017 04:04:11 UTC] PHP   9. JControllerLegacy->execute() /home/ubuntu/workspace/administrator/components/com_booking/helpers/controller.php:45
+[21-Mar-2017 04:04:11 UTC] PHP  10. BookingControllerSubject->save() /home/ubuntu/workspace/libraries/legacy/controller/legacy.php:702
+[21-Mar-2017 04:04:11 UTC] PHP  11. BookingModelSubject->store() /home/ubuntu/workspace/administrator/components/com_booking/controllers/subject.php:195
+[21-Mar-2017 04:04:11 UTC] PHP  12. BookingModelPrices->store() /home/ubuntu/workspace/administrator/components/com_booking/models/subject.php:393
+[21-Mar-2017 04:15:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/administrator/components/com_booking/tables/subject.php on line 700
+[21-Mar-2017 04:15:37 UTC] PHP Stack trace:
+[21-Mar-2017 04:15:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/administrator/index.php:0
+[21-Mar-2017 04:15:37 UTC] PHP   2. JApplicationCms->execute() /home/ubuntu/workspace/administrator/index.php:51
+[21-Mar-2017 04:15:37 UTC] PHP   3. JApplicationAdministrator->doExecute() /home/ubuntu/workspace/libraries/cms/application/cms.php:261
+[21-Mar-2017 04:15:37 UTC] PHP   4. JApplicationAdministrator->dispatch() /home/ubuntu/workspace/libraries/cms/application/administrator.php:152
+[21-Mar-2017 04:15:37 UTC] PHP   5. JComponentHelper::renderComponent() /home/ubuntu/workspace/libraries/cms/application/administrator.php:98
+[21-Mar-2017 04:15:37 UTC] PHP   6. JComponentHelper::executeComponent() /home/ubuntu/workspace/libraries/cms/component/helper.php:380
+[21-Mar-2017 04:15:37 UTC] PHP   7. require_once() /home/ubuntu/workspace/libraries/cms/component/helper.php:405
+[21-Mar-2017 04:15:37 UTC] PHP   8. AController->execute() /home/ubuntu/workspace/administrator/components/com_booking/booking.php:98
+[21-Mar-2017 04:15:37 UTC] PHP   9. JControllerLegacy->execute() /home/ubuntu/workspace/administrator/components/com_booking/helpers/controller.php:45
+[21-Mar-2017 04:15:37 UTC] PHP  10. BookingControllerSubject->save() /home/ubuntu/workspace/libraries/legacy/controller/legacy.php:702
+[21-Mar-2017 04:15:37 UTC] PHP  11. BookingModelSubject->store() /home/ubuntu/workspace/administrator/components/com_booking/controllers/subject.php:195
+[21-Mar-2017 04:15:37 UTC] PHP  12. TableSubject->bind() /home/ubuntu/workspace/administrator/components/com_booking/models/subject.php:329
+[21-Mar-2017 04:15:37 UTC] PHP  13. TableSubject->prepare() /home/ubuntu/workspace/administrator/components/com_booking/tables/subject.php:618
+[21-Mar-2017 04:15:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/administrator/components/com_booking/models/prices.php on line 150
+[21-Mar-2017 04:15:37 UTC] PHP Stack trace:
+[21-Mar-2017 04:15:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/administrator/index.php:0
+[21-Mar-2017 04:15:37 UTC] PHP   2. JApplicationCms->execute() /home/ubuntu/workspace/administrator/index.php:51
+[21-Mar-2017 04:15:37 UTC] PHP   3. JApplicationAdministrator->doExecute() /home/ubuntu/workspace/libraries/cms/application/cms.php:261
+[21-Mar-2017 04:15:37 UTC] PHP   4. JApplicationAdministrator->dispatch() /home/ubuntu/workspace/libraries/cms/application/administrator.php:152
+[21-Mar-2017 04:15:37 UTC] PHP   5. JComponentHelper::renderComponent() /home/ubuntu/workspace/libraries/cms/application/administrator.php:98
+[21-Mar-2017 04:15:37 UTC] PHP   6. JComponentHelper::executeComponent() /home/ubuntu/workspace/libraries/cms/component/helper.php:380
+[21-Mar-2017 04:15:37 UTC] PHP   7. require_once() /home/ubuntu/workspace/libraries/cms/component/helper.php:405
+[21-Mar-2017 04:15:37 UTC] PHP   8. AController->execute() /home/ubuntu/workspace/administrator/components/com_booking/booking.php:98
+[21-Mar-2017 04:15:37 UTC] PHP   9. JControllerLegacy->execute() /home/ubuntu/workspace/administrator/components/com_booking/helpers/controller.php:45
+[21-Mar-2017 04:15:37 UTC] PHP  10. BookingControllerSubject->save() /home/ubuntu/workspace/libraries/legacy/controller/legacy.php:702
+[21-Mar-2017 04:15:37 UTC] PHP  11. BookingModelSubject->store() /home/ubuntu/workspace/administrator/components/com_booking/controllers/subject.php:195
+[21-Mar-2017 04:15:37 UTC] PHP  12. BookingModelPrices->store() /home/ubuntu/workspace/administrator/components/com_booking/models/subject.php:393
+[21-Mar-2017 04:39:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/administrator/components/com_booking/tables/subject.php on line 700
+[21-Mar-2017 04:39:18 UTC] PHP Stack trace:
+[21-Mar-2017 04:39:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/administrator/index.php:0
+[21-Mar-2017 04:39:18 UTC] PHP   2. JApplicationCms->execute() /home/ubuntu/workspace/administrator/index.php:51
+[21-Mar-2017 04:39:18 UTC] PHP   3. JApplicationAdministrator->doExecute() /home/ubuntu/workspace/libraries/cms/application/cms.php:261
+[21-Mar-2017 04:39:18 UTC] PHP   4. JApplicationAdministrator->dispatch() /home/ubuntu/workspace/libraries/cms/application/administrator.php:152
+[21-Mar-2017 04:39:18 UTC] PHP   5. JComponentHelper::renderComponent() /home/ubuntu/workspace/libraries/cms/application/administrator.php:98
+[21-Mar-2017 04:39:18 UTC] PHP   6. JComponentHelper::executeComponent() /home/ubuntu/workspace/libraries/cms/component/helper.php:380
+[21-Mar-2017 04:39:18 UTC] PHP   7. require_once() /home/ubuntu/workspace/libraries/cms/component/helper.php:405
+[21-Mar-2017 04:39:18 UTC] PHP   8. AController->execute() /home/ubuntu/workspace/administrator/components/com_booking/booking.php:98
+[21-Mar-2017 04:39:18 UTC] PHP   9. JControllerLegacy->execute() /home/ubuntu/workspace/administrator/components/com_booking/helpers/controller.php:45
+[21-Mar-2017 04:39:18 UTC] PHP  10. BookingControllerSubject->apply() /home/ubuntu/workspace/libraries/legacy/controller/legacy.php:702
+[21-Mar-2017 04:39:18 UTC] PHP  11. BookingControllerSubject->save() /home/ubuntu/workspace/administrator/components/com_booking/controllers/subject.php:173
+[21-Mar-2017 04:39:18 UTC] PHP  12. BookingModelSubject->store() /home/ubuntu/workspace/administrator/components/com_booking/controllers/subject.php:195
+[21-Mar-2017 04:39:18 UTC] PHP  13. TableSubject->bind() /home/ubuntu/workspace/administrator/components/com_booking/models/subject.php:329
+[21-Mar-2017 04:39:18 UTC] PHP  14. TableSubject->prepare() /home/ubuntu/workspace/administrator/components/com_booking/tables/subject.php:618
+[21-Mar-2017 04:39:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/administrator/components/com_booking/models/prices.php on line 150
+[21-Mar-2017 04:39:18 UTC] PHP Stack trace:
+[21-Mar-2017 04:39:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/administrator/index.php:0
+[21-Mar-2017 04:39:18 UTC] PHP   2. JApplicationCms->execute() /home/ubuntu/workspace/administrator/index.php:51
+[21-Mar-2017 04:39:18 UTC] PHP   3. JApplicationAdministrator->doExecute() /home/ubuntu/workspace/libraries/cms/application/cms.php:261
+[21-Mar-2017 04:39:18 UTC] PHP   4. JApplicationAdministrator->dispatch() /home/ubuntu/workspace/libraries/cms/application/administrator.php:152
+[21-Mar-2017 04:39:18 UTC] PHP   5. JComponentHelper::renderComponent() /home/ubuntu/workspace/libraries/cms/application/administrator.php:98
+[21-Mar-2017 04:39:18 UTC] PHP   6. JComponentHelper::executeComponent() /home/ubuntu/workspace/libraries/cms/component/helper.php:380
+[21-Mar-2017 04:39:18 UTC] PHP   7. require_once() /home/ubuntu/workspace/libraries/cms/component/helper.php:405
+[21-Mar-2017 04:39:18 UTC] PHP   8. AController->execute() /home/ubuntu/workspace/administrator/components/com_booking/booking.php:98
+[21-Mar-2017 04:39:18 UTC] PHP   9. JControllerLegacy->execute() /home/ubuntu/workspace/administrator/components/com_booking/helpers/controller.php:45
+[21-Mar-2017 04:39:18 UTC] PHP  10. BookingControllerSubject->apply() /home/ubuntu/workspace/libraries/legacy/controller/legacy.php:702
+[21-Mar-2017 04:39:18 UTC] PHP  11. BookingControllerSubject->save() /home/ubuntu/workspace/administrator/components/com_booking/controllers/subject.php:173
+[21-Mar-2017 04:39:18 UTC] PHP  12. BookingModelSubject->store() /home/ubuntu/workspace/administrator/components/com_booking/controllers/subject.php:195
+[21-Mar-2017 04:39:18 UTC] PHP  13. BookingModelPrices->store() /home/ubuntu/workspace/administrator/components/com_booking/models/subject.php:393
+[21-Mar-2017 04:39:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/administrator/components/com_booking/tables/subject.php on line 700
+[21-Mar-2017 04:39:33 UTC] PHP Stack trace:
+[21-Mar-2017 04:39:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/administrator/index.php:0
+[21-Mar-2017 04:39:33 UTC] PHP   2. JApplicationCms->execute() /home/ubuntu/workspace/administrator/index.php:51
+[21-Mar-2017 04:39:33 UTC] PHP   3. JApplicationAdministrator->doExecute() /home/ubuntu/workspace/libraries/cms/application/cms.php:261
+[21-Mar-2017 04:39:33 UTC] PHP   4. JApplicationAdministrator->dispatch() /home/ubuntu/workspace/libraries/cms/application/administrator.php:152
+[21-Mar-2017 04:39:33 UTC] PHP   5. JComponentHelper::renderComponent() /home/ubuntu/workspace/libraries/cms/application/administrator.php:98
+[21-Mar-2017 04:39:33 UTC] PHP   6. JComponentHelper::executeComponent() /home/ubuntu/workspace/libraries/cms/component/helper.php:380
+[21-Mar-2017 04:39:33 UTC] PHP   7. require_once() /home/ubuntu/workspace/libraries/cms/component/helper.php:405
+[21-Mar-2017 04:39:33 UTC] PHP   8. AController->execute() /home/ubuntu/workspace/administrator/components/com_booking/booking.php:98
+[21-Mar-2017 04:39:33 UTC] PHP   9. JControllerLegacy->execute() /home/ubuntu/workspace/administrator/components/com_booking/helpers/controller.php:45
+[21-Mar-2017 04:39:33 UTC] PHP  10. BookingControllerSubject->save() /home/ubuntu/workspace/libraries/legacy/controller/legacy.php:702
+[21-Mar-2017 04:39:33 UTC] PHP  11. BookingModelSubject->store() /home/ubuntu/workspace/administrator/components/com_booking/controllers/subject.php:195
+[21-Mar-2017 04:39:33 UTC] PHP  12. TableSubject->bind() /home/ubuntu/workspace/administrator/components/com_booking/models/subject.php:329
+[21-Mar-2017 04:39:33 UTC] PHP  13. TableSubject->prepare() /home/ubuntu/workspace/administrator/components/com_booking/tables/subject.php:618
+[21-Mar-2017 04:39:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/administrator/components/com_booking/models/prices.php on line 150
+[21-Mar-2017 04:39:33 UTC] PHP Stack trace:
+[21-Mar-2017 04:39:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/administrator/index.php:0
+[21-Mar-2017 04:39:33 UTC] PHP   2. JApplicationCms->execute() /home/ubuntu/workspace/administrator/index.php:51
+[21-Mar-2017 04:39:33 UTC] PHP   3. JApplicationAdministrator->doExecute() /home/ubuntu/workspace/libraries/cms/application/cms.php:261
+[21-Mar-2017 04:39:33 UTC] PHP   4. JApplicationAdministrator->dispatch() /home/ubuntu/workspace/libraries/cms/application/administrator.php:152
+[21-Mar-2017 04:39:33 UTC] PHP   5. JComponentHelper::renderComponent() /home/ubuntu/workspace/libraries/cms/application/administrator.php:98
+[21-Mar-2017 04:39:33 UTC] PHP   6. JComponentHelper::executeComponent() /home/ubuntu/workspace/libraries/cms/component/helper.php:380
+[21-Mar-2017 04:39:33 UTC] PHP   7. require_once() /home/ubuntu/workspace/libraries/cms/component/helper.php:405
+[21-Mar-2017 04:39:33 UTC] PHP   8. AController->execute() /home/ubuntu/workspace/administrator/components/com_booking/booking.php:98
+[21-Mar-2017 04:39:33 UTC] PHP   9. JControllerLegacy->execute() /home/ubuntu/workspace/administrator/components/com_booking/helpers/controller.php:45
+[21-Mar-2017 04:39:33 UTC] PHP  10. BookingControllerSubject->save() /home/ubuntu/workspace/libraries/legacy/controller/legacy.php:702
+[21-Mar-2017 04:39:33 UTC] PHP  11. BookingModelSubject->store() /home/ubuntu/workspace/administrator/components/com_booking/controllers/subject.php:195
+[21-Mar-2017 04:39:33 UTC] PHP  12. BookingModelPrices->store() /home/ubuntu/workspace/administrator/components/com_booking/models/subject.php:393
+[21-Mar-2017 04:47:21 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/control_citas/agregar_cita.php on line 33
+[21-Mar-2017 05:29:05 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/control_citas/agregar_cita.php on line 29
+[21-Mar-2017 05:37:19 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/control_citas/agregar_cita.php on line 28
+[21-Mar-2017 05:37:19 UTC] PHP Stack trace:
+[21-Mar-2017 05:37:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/control_citas/agregar_cita.php:0
+[21-Mar-2017 05:44:48 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/control_citas/agregar_cita.php on line 27
+[21-Mar-2017 05:44:48 UTC] PHP Stack trace:
+[21-Mar-2017 05:44:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/control_citas/agregar_cita.php:0
+[21-Mar-2017 05:46:23 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/control_citas/agregar_cita.php on line 27
+[21-Mar-2017 05:46:23 UTC] PHP Stack trace:
+[21-Mar-2017 05:46:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/control_citas/agregar_cita.php:0
+[21-Mar-2017 05:46:48 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/control_citas/agregar_cita.php on line 27
+[21-Mar-2017 05:46:48 UTC] PHP Stack trace:
+[21-Mar-2017 05:46:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/control_citas/agregar_cita.php:0
+[21-Mar-2017 05:46:49 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/control_citas/agregar_cita.php on line 27
+[21-Mar-2017 05:46:49 UTC] PHP Stack trace:
+[21-Mar-2017 05:46:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/control_citas/agregar_cita.php:0
+[21-Mar-2017 07:07:54 UTC] PHP Parse error:  syntax error, unexpected ''></a></td>' (T_ENCAPSED_AND_WHITESPACE) in /home/ubuntu/workspace/control_citas/ver_citas.php on line 48
+[21-Mar-2017 07:08:21 UTC] PHP Parse error:  syntax error, unexpected ''></a></td>' (T_ENCAPSED_AND_WHITESPACE) in /home/ubuntu/workspace/control_citas/ver_citas.php on line 48
+[21-Mar-2017 07:08:22 UTC] PHP Parse error:  syntax error, unexpected ''></a></td>' (T_ENCAPSED_AND_WHITESPACE) in /home/ubuntu/workspace/control_citas/ver_citas.php on line 48
+[21-Mar-2017 07:09:09 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/control_citas/eliminar.php on line 18
+[01-Nov-2017 15:09:05 UTC] PHP Parse error:  syntax error, unexpected 'FF00CC' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/control_citas/ver_citas.php on line 59

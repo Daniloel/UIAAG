@@ -1,0 +1,33 @@
+enabled: '1'
+class: ''
+title: Galeria
+nav: enable
+dots: enable
+autoplay: enable
+autoplaySpeed: ''
+imageOverlay: enable
+items:
+  -
+    image: 'gantry-media://Aula_Ambiente/IMG_20170206_172905259_HDR.jpg'
+    title: 'Muestrario de rocas'
+    desc: 'Ubicado en la oficina del aula'
+    link: ''
+    linktext: ''
+    buttonclass: button-outline
+    name: Muestrario_Rocas
+  -
+    image: 'gantry-media://Aula_Ambiente/IMG_20170206_173745375.jpg'
+    title: Rocas
+    desc: ''
+    link: ''
+    linktext: ''
+    buttonclass: button-outline
+    name: Rocas
+  -
+    image: 'gantry-media://Aula_Ambiente/IMG_20170206_173350351.jpg'
+    title: 'Cuenca Barinas-Apure'
+    desc: ''
+    link: ''
+    linktext: ''
+    buttonclass: button-outline
+    name: Cuenca

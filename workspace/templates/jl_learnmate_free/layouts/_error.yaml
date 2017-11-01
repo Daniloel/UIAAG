@@ -1,0 +1,94 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: _error
+  timestamp: 1478846879
+layout:
+  /header/:
+  /navigation/:
+    -
+      - 'logo-9608 15'
+      - 'menu-6409 65'
+      - 'social-3171 20'
+  /above-slideshow/: {  }
+  /slideshow/:
+     -
+      - custom-8642
+  /container-main/:
+    -
+      -
+        'aside 25':
+          -
+            - position-position-4734
+      -
+        'mainbar 50':
+          -
+            - system-content-1587
+      -
+        'sidebar 25':
+          -
+            - position-position-3949
+  /footer/:
+    -
+      - 'copyright-1736 33'
+      - 'horizontalmenu-9034 48'
+      - 'totop-8670 19'
+  /offcanvas/:
+    -
+      - mobile-menu-5697
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  header:
+    attributes:
+      boxed: ''
+      class: ''
+  mainbar:
+    type: section
+    subtype: main
+    attributes:
+      class: ''
+    block:
+      variations: center
+  sidebar:
+    type: section
+    subtype: aside
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+  offcanvas:
+    attributes:
+      boxed: ''
+content:
+  logo-9608:
+    title: 'Logo / Image'
+  social-3171:
+    block:
+      class: g-social-header
+  custom-8642:
+    title: 'Custom HTML'
+    attributes:
+      html: "<h2 class=\"g-title\">We are sorry!</h2>\n<p>Gantry 5 provides a custom error page for you to configure with either positions, particles or a combination of both, as well as styling.</p>"
+  horizontalmenu-9034:
+    title: 'Horizontal Menu'
+    attributes:
+      items:
+        -
+          text: JoomLead
+          link: 'https://joomlead.com'
+          name: JoomLead
+        -
+          text: Documentation
+          link: 'https://joomlead.com/documentation/'
+          name: Documentation
+        -
+          text: Download
+          link: 'https://joomlead.com/joomla-template/'
+          name: Download
+  totop-8670:
+    title: 'To Top'

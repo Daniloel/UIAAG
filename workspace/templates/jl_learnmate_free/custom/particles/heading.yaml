@@ -1,0 +1,86 @@
+name: Heading
+description: Heading
+type: particle
+icon: fa-header
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable to the particles.
+      default: true
+
+    style:
+      type: select.selectize
+      label: Style
+      description: Choose type
+      default: 0
+      options:
+         0: Default
+         1: Style 1
+         2: Style 2
+         3: Style 3
+         4: Style 4
+         5: Style 5
+         6: Style 6
+         7: Style 7
+         8: Style 8
+         9: Style 9
+         10: Style 10
+
+    title:
+      type: textarea.textarea
+      label: Title
+      description: Enter the title.
+
+    titlealign:
+      type: select.selectize
+      label: Title Align
+      description: Select title align.
+      default: center
+      options:
+          center: Center
+          left: Left
+          right: Right
+
+    titlecolor:
+      type: input.colorpicker
+      label: Title color
+      description: Select title color.
+
+    titlesize:
+      type: input.number
+      label: Title Font Size
+      description: Select title font size.
+      min : 10;
+      max : 70;
+
+
+
+    subtitle:
+      type: textarea.textarea
+      label: Subtitle
+      description: Enter the subtitle(custom HTML).
+
+    subtitlealign:
+      type: select.selectize
+      label: Subtitle Align
+      description: Select subtitle align.
+      default: center
+      options:
+          center: Center
+          left: Left
+          right: Right
+
+    subtitlecolor:
+      type: input.colorpicker
+      label: Subitle color
+      description: Select subtitle color.
+
+    subtitlesize:
+      type: input.number
+      label: Subtitle Font Size
+      description: Select subtitle font size.
+      min : 10;
+      max : 70;

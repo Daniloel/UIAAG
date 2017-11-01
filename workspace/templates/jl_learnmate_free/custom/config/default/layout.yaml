@@ -1,0 +1,219 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1486615513
+layout:
+  /header/:
+    -
+      - 'logo-5575 15'
+      - 'logo-9608 20'
+      - 'spacer-3650 25'
+      - 'custom-2399 40'
+  /navigation/:
+    -
+      - menu-7668
+  /above-slideshow/:
+    -
+      - 'position-position-8391 70'
+      - 'social-4869 30'
+  /slideshow/:
+    -
+      - position-module-2342
+  /container-main/:
+    -
+      -
+        'aside 25':
+          -
+            - position-position-4734
+      -
+        'mainbar 50':
+          -
+            - system-content-1587
+      -
+        'sidebar 25':
+          -
+            - 'position-module-7391 50'
+            - 'position-position-3949 50'
+  /footer/:
+    -
+      - 'custom-9609 25'
+      - 'custom-2410 17'
+      - 'custom-6963 17'
+      - 'custom-1285 17'
+      - 'custom-5076 24'
+    -
+      - 'branding-2819 70'
+      - 'social-3954 30'
+    -
+      - totop-1065
+  /offcanvas/:
+    -
+      - mobile-menu-5697
+structure:
+  header:
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: '1'
+      class: ''
+  above-slideshow:
+    type: section
+    attributes:
+      boxed: ''
+  slideshow:
+    type: section
+    attributes:
+      boxed: ''
+  aside:
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  mainbar:
+    type: section
+    subtype: main
+  sidebar:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: '0'
+      class: ''
+  offcanvas:
+    attributes:
+      boxed: ''
+content:
+  logo-5575:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://logo.jpg'
+    block:
+      fixed: '1'
+  logo-9608:
+    title: 'Logo / Image'
+    attributes:
+      url: images/edaulaa.png
+      image: 'gantry-media://edaulaa.png'
+      text: 'Aula Ambiente'
+  custom-2399:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div class=\"top-menu\">\n    <ul class=\"nav menu\">\n        <li><a href=\"/index.php/aula/26-muestrarios/4-muestrarios\">MUESTRARIOS</a></li>\n        <li><a href=\"/index.php/aula/25-planetario/3-planetario\">PLANETARIO</a></li>\n        <li><a href=\"#\"></a></li>\n        <li><a href=\"/index.php/aula/27-eventos\">EVENTOS</a></li>\n        <li><a href=\"#\"></a></li>\n    </ul>\n</div>\n"
+  menu-7668:
+    attributes:
+      menu: mainmenu
+      base: '101'
+      renderTitles: '1'
+      hoverExpand: '1'
+      mobileTarget: '1'
+    block:
+      class: 'position: fixed'
+      variations: 'shadow box-gradient'
+  position-position-8391:
+    title: 'Module Position'
+    attributes:
+      key: hot-event
+      chrome: ''
+  social-4869:
+    attributes:
+      items:
+        -
+          icon: 'fa fa-twitter fa-fw'
+          text: ''
+          link: 'http://www.twitter.com/joomlead'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook fa-fw'
+          text: ''
+          link: 'http://www.facebook.com/joomlead'
+          name: Facebook
+        -
+          icon: 'fa fa-google-plus fa-fw'
+          text: ''
+          link: 'https://plus.google.com/+joomlead'
+          name: Google+
+        -
+          icon: 'fa fa-instagram'
+          text: ''
+          link: '#'
+          name: Instagram
+  position-module-2342:
+    title: 'Module Instance'
+    attributes:
+      module_id: '88'
+      key: module-instance
+    block:
+      fixed: '1'
+  position-position-4734:
+    title: Aside
+    attributes:
+      key: logo
+  position-module-7391:
+    title: 'Module Instance'
+    attributes:
+      module_id: '16'
+      key: module-instance
+  position-position-3949:
+    title: Sidebar
+    attributes:
+      key: sidebar
+  custom-9609:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div class=\"jl-ft-about\" style=\"text-align: left\">\n\t<div class=\"jl-heading\">\n      <img src=\"images/edaulaa.png\" alt=\"\" />\n  </div>\n</div>"
+  custom-2410:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div class=\"jl-custom-ft uk-grid\">\n  <div class=\"jl-custom-title uk-width-1-1\">\n    <h3>INFORMACIÓN</h3>\n  </div>\n\n    <div class=\"jl-custom-link uk-width-1-1\">\n      <a href=\"#\">¿Quiénes somos?</a>\n    </div>\n    <div class=\"jl-custom-link uk-width-1-1\">\n      <a href=\"index.php/aula/resena-historica\">Reseña Histórica</a>\n    </div>\n    <div class=\"jl-custom-link uk-width-1-1\">\n      <a href=\"#\">Servicios y Galeria</a>\n    </div>\n    <div class=\"jl-custom-link uk-width-1-1\">\n      <a href=\"#\">Investigaciones</a>\n    </div>\n    <div class=\"jl-custom-link uk-width-1-1\">\n      <a href=\"#\">Mision / Vision </a>\n    </div>\n\n</div>"
+  custom-6963:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div class=\"jl-custom-ft uk-grid\">\n  <div class=\"jl-custom-title uk-width-1-1\">\n    <h3>ENLACES</h3>\n  </div>\n\n    <div class=\"jl-custom-link uk-width-1-1\">\n      <a href=\"http://www.unellez.edu.ve\" target=\"_blank\">Portal UNELLEZ</a>\n    </div>\n    <div class=\"jl-custom-link uk-width-1-1\">\n      <a href=\"http://www.edudigital.unellez.edu.ve/portal_nuevo/\" target=\"_blank\">Portal SEEAD</a>\n    </div>\n    <div class=\"jl-custom-link uk-width-1-1\">\n      <a href=\"http://www.pdvsa.com\" target=\"_blank\">PDVSA</a>\n    </div>\n    <div class=\"jl-custom-link uk-width-1-1\">\n      <a href=\"#\" target=\"_blank\">Centro Climatológico</a>\n    </div>\n    <div class=\"jl-custom-link uk-width-1-1\">\n      <a href=\"http://www.pdv.com/lexico/\" target=\"_blank\">Código Geológico de Venezuela</a>\n    </div>\n</div>"
+  custom-1285:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div class=\"jl-custom-ft uk-grid\">\n  <div class=\"jl-custom-title uk-width-1-1\">\n    <br>\n  </div>\n    <div class=\"jl-custom-link uk-width-1-1\">\n      <a href=\"#\">Accesibilidad</a>\n    </div>\n    <div class=\"jl-custom-link uk-width-1-1\">\n      <a href=\"#\">Legal</a>\n    </div>\n    <div class=\"jl-custom-link uk-width-1-1\">\n      <a href=\"#\">Mapa del sitio</a>\n    </div>\n    <div class=\"jl-custom-link uk-width-1-1\">\n      <a href=\"#\">Términos de uso</a>\n    </div>\n    <div class=\"jl-custom-link uk-width-1-1\">\n      <a href=\"#\">Privacidad</a>\n    </div>\n</div>"
+  custom-5076:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div class=\"jl-custom-ft uk-grid\">\n  <div class=\"jl-custom-title uk-width-1-1\">\n    <h3>INFORMACIÓN DE CONTACTO</h3>\n  </div>\n\n    <div class=\"jl-custom-link uk-width-1-1\">\n      <p>Universidad Nacional Experimental de los Llanos Occidentales Ezequiel Zamora, en el Pabellón 11 de Barinas II. Av. 23 de Enero. Barinas, Edo Barinas</p>\n    </div>\n    <div class=\"jl-custom-link uk-width-1-1\">\n      <p>Tel: +58 414 5395328 </p>\n    </div>\n    <div class=\"jl-custom-link uk-width-1-1\">\n      <p>Email: aula.ambiente@gmail.com </p>\n    </div>\n\n</div>"
+  branding-2819:
+    attributes:
+      content: 'Copyright © 2017. Desarrollado por <a href="/index.php" title="Aula Ambiente" class="g-powered-by">Aula Ambiente - UNELLEZ<span class="hidden-tablet"></span></a>. Todos los derechos reservados.'
+  social-3954:
+    attributes:
+      items:
+        -
+          icon: 'fa fa-twitter fa-fw'
+          text: ''
+          link: 'http://www.twitter.com/joomlead'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook fa-fw'
+          text: ''
+          link: 'http://www.facebook.com/joomlead'
+          name: Facebook
+        -
+          icon: 'fa fa-google-plus fa-fw'
+          text: ''
+          link: 'https://plus.google.com/+joomlead'
+          name: Google+
+        -
+          icon: 'fa fa-instagram'
+          text: ''
+          link: '#'
+          name: Instagram
+  totop-1065:
+    title: 'To Top'
+    attributes:
+      content: ''
