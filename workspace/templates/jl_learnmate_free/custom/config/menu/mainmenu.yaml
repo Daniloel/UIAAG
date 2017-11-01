@@ -1,0 +1,53 @@
+ordering:
+  inicio: ''
+  aula:
+    objetivos: ''
+    mision: ''
+    vision: ''
+    resena-historica: ''
+    autoridades: ''
+  investigacion-y-extension: ''
+  noticias: ''
+  asignaturas:
+    geologia:
+      geologia-fisca: ''
+      geologia-petrolera: ''
+    perforacion: ''
+    perforacion-ii: ''
+    yacimientos-i: ''
+    facilidades-de-superficie: ''
+items:
+  inicio:
+    id: 101
+  aula:
+    id: 102
+  aula/objetivos:
+    id: 103
+  aula/mision:
+    id: 107
+  aula/vision:
+    id: 108
+  aula/resena-historica:
+    id: 109
+  aula/autoridades:
+    id: 110
+  investigacion-y-extension:
+    id: 111
+  noticias:
+    id: 112
+  asignaturas:
+    id: 113
+  asignaturas/geologia:
+    id: 114
+  asignaturas/geologia/geologia-fisca:
+    id: 115
+  asignaturas/geologia/geologia-petrolera:
+    id: 116
+  asignaturas/perforacion:
+    id: 117
+  asignaturas/perforacion-ii:
+    id: 118
+  asignaturas/yacimientos-i:
+    id: 119
+  asignaturas/facilidades-de-superficie:
+    id: 120
